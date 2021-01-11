@@ -50,7 +50,7 @@ export function clusterName(cluster: Cluster): string {
   }
 }
 
-export const MAINNET_BETA_URL = clusterApiUrl("mainnet-beta");
+export const MAINNET_BETA_URL = "https://solana-api.projectserum.com/wallet";
 export const TESTNET_URL = clusterApiUrl("testnet");
 export const DEVNET_URL = clusterApiUrl("devnet");
 
